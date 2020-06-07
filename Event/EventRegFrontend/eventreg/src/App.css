@@ -1,0 +1,185 @@
+.App{
+  align-items: center;
+}
+
+
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.bg{
+  /* background-image: url("https://i.pinimg.com/originals/a0/74/a8/a074a8a62cf3c17b39c70aa1270ef4eb.jpg");
+  
+  background-size: cover;
+
+  min-width: 100%;
+
+  min-height: 100%; */
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #000000 ;
+  color:floralwhite;
+}
+
+
+.EventList{
+  
+  background-color: #ccbfbf;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: #ff0000;
+  text-align: center;
+  
+}
+
+.starter{
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: #ff0000;
+  text-align: center;
+}
+/* 
+.list {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+} */
+
+.card-container {
+  width: 250px;
+  border: 1px solid rgba(0,0,.125);
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.text{
+  color: "#ff0000";
+  text-align: center;
+}
+
+.navbar-dark {
+  background-color: #000000;
+  
+  
+}
+
+.tick{
+  text-align: center;
+}
+
+
+.align{
+ 
+  align-items: center;
+}
+
+.CardAlign{
+  margin-top: 70px;
+}
+
+.pos{
+  position: relative;
+}
+
+.img{
+  max-width:100%;
+  max-height:100%;
+  display: block;
+  object-fit:cover; 
+}
+
+.text{
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.head{
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.top{
+  margin-top: 50px;
+}
+
+.topp{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.mini{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card{ 
+  outline: none;
+  margin: 50px;
+  text-align: center;
+  /* border: 2px solid saddlebrown; */
+  
+}
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,1);
+}
+
+.car{
+  margin: 50px;
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid black;
+}
+
+.click{
+  float: right;
+  margin: 5px;
+}
+
+.btn-circle.btn-xl { 
+  width: 80px; 
+  height: 80px; 
+  padding: 10px 16px; 
+  border-radius: 35px; 
+  font-size: 18px; 
+  text-align: center; 
+  margin: 20px;
+  align-self: center;
+} 
+
+.footer{
+  background-color: #585555;
+  
+  padding: 20px 0px 20px 0px;
+}
+
+.card-footer{
+  background-color: #000000;
+}
+.tex{
+  text-align: center;
+}
+
+.radius{
+  margin: 50px;
+}
+
+.mar{
+  margin: 50px;
+}
